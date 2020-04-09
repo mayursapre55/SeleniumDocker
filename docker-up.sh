@@ -1,1 +1,1 @@
-sudo docker-compose -f selenium-docker-compose.yml up
+sudo docker-compose -f selenium-docker-compose.yaml up
