@@ -1,0 +1,404 @@
+Attaching to selenium-hub1, comdocker_chrome_1, comdocker_opera_1, comdocker_firefox_1
+[36mselenium-hub1   |[0m 2020-04-26 18:45:01,142 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub1   |[0m 2020-04-26 18:45:01,144 INFO supervisord started with pid 7
+[36mselenium-hub1   |[0m 2020-04-26 18:45:02,145 INFO spawned: 'selenium-hub' with pid 10
+[36mselenium-hub1   |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub1   |[0m 2020-04-26 18:45:02,159 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub1   |[0m {
+[36mselenium-hub1   |[0m   "host": "0.0.0.0",
+[36mselenium-hub1   |[0m   "port": 4444,
+[36mselenium-hub1   |[0m   "role": "hub",
+[36mselenium-hub1   |[0m   "maxSession": 5,
+[36mselenium-hub1   |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub1   |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub1   |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub1   |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub1   |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub1   |[0m   "browserTimeout": 0,
+[36mselenium-hub1   |[0m   "timeout": 1800,
+[36mselenium-hub1   |[0m   "debug": false
+[36mselenium-hub1   |[0m }
+[33mchrome_1        |[0m 2020-04-26 18:45:02,327 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_1        |[0m 2020-04-26 18:45:02,332 INFO supervisord started with pid 7
+[32mopera_1         |[0m 2020-04-26 18:45:02,466 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mopera_1         |[0m 2020-04-26 18:45:02,469 INFO supervisord started with pid 8
+[36mselenium-hub1   |[0m 18:45:02.513 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[35mfirefox_1       |[0m 2020-04-26 18:45:02,534 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[35mfirefox_1       |[0m 2020-04-26 18:45:02,536 INFO supervisord started with pid 7
+[36mselenium-hub1   |[0m 18:45:02.621 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[36mselenium-hub1   |[0m 2020-04-26 18:45:02.984:INFO::main: Logging initialized @816ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mselenium-hub1   |[0m 18:45:03.158 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub1   |[0m 18:45:03.159 INFO [Hub.start] - Nodes should register to http://172.19.0.2:4444/grid/register/
+[36mselenium-hub1   |[0m 18:45:03.159 INFO [Hub.start] - Clients should connect to http://172.19.0.2:4444/wd/hub
+[33mchrome_1        |[0m 2020-04-26 18:45:03,334 INFO spawned: 'xvfb' with pid 10
+[33mchrome_1        |[0m 2020-04-26 18:45:03,336 INFO spawned: 'selenium-node' with pid 11
+[33mchrome_1        |[0m E: [pulseaudio] main.c: Daemon startup failed.
+[33mchrome_1        |[0m 2020-04-26 18:45:03,420 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-04-26 18:45:03,420 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m No PulseAudio daemon running, or not running as session daemon.
+[33mchrome_1        |[0m No PulseAudio daemon running, or not running as session daemon.
+[33mchrome_1        |[0m No PulseAudio daemon running, or not running as session daemon.
+[33mchrome_1        |[0m Connecting to the Hub using the host selenium-hub1 and port 4444
+[32mopera_1         |[0m 2020-04-26 18:45:03,471 INFO spawned: 'xvfb' with pid 11
+[32mopera_1         |[0m 2020-04-26 18:45:03,472 INFO spawned: 'selenium-node' with pid 12
+[35mfirefox_1       |[0m 2020-04-26 18:45:03,538 INFO spawned: 'xvfb' with pid 10
+[35mfirefox_1       |[0m 2020-04-26 18:45:03,540 INFO spawned: 'selenium-node' with pid 11
+[32mopera_1         |[0m E: [pulseaudio] main.c: Daemon startup failed.
+[32mopera_1         |[0m 2020-04-26 18:45:03,550 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mopera_1         |[0m 2020-04-26 18:45:03,550 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mopera_1         |[0m No PulseAudio daemon running, or not running as session daemon.
+[32mopera_1         |[0m No PulseAudio daemon running, or not running as session daemon.
+[32mopera_1         |[0m No PulseAudio daemon running, or not running as session daemon.
+[32mopera_1         |[0m Connecting to the Hub using the host selenium-hub1 and port 4444
+[35mfirefox_1       |[0m E: [pulseaudio] main.c: Daemon startup failed.
+[35mfirefox_1       |[0m 2020-04-26 18:45:03,623 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[35mfirefox_1       |[0m 2020-04-26 18:45:03,623 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[35mfirefox_1       |[0m No PulseAudio daemon running, or not running as session daemon.
+[35mfirefox_1       |[0m No PulseAudio daemon running, or not running as session daemon.
+[35mfirefox_1       |[0m No PulseAudio daemon running, or not running as session daemon.
+[35mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub1 and port 4444
+[33mchrome_1        |[0m 18:45:03.762 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mopera_1         |[0m 18:45:03.887 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_1        |[0m 18:45:03.938 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mopera_1         |[0m 18:45:04.054 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[35mfirefox_1       |[0m 18:45:04.059 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_1        |[0m 2020-04-26 18:45:04.087:INFO::main: Logging initialized @649ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mopera_1         |[0m 2020-04-26 18:45:04.187:INFO::main: Logging initialized @611ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[35mfirefox_1       |[0m 18:45:04.251 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[35mfirefox_1       |[0m 2020-04-26 18:45:04.408:INFO::main: Logging initialized @750ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 18:45:04.414 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mopera_1         |[0m 18:45:04.528 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mchrome_1        |[0m 18:45:04.533 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_1        |[0m 18:45:04.534 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[33mchrome_1        |[0m 18:45:04.615 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mopera_1         |[0m 18:45:04.702 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mopera_1         |[0m 18:45:04.702 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[35mfirefox_1       |[0m 18:45:04.717 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mopera_1         |[0m 18:45:04.773 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[35mfirefox_1       |[0m 18:45:04.938 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[35mfirefox_1       |[0m 18:45:04.938 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[35mfirefox_1       |[0m 18:45:05.044 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_1        |[0m 18:45:05.240 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub1:4444/grid/register
+[32mopera_1         |[0m 18:45:05.283 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub1:4444/grid/register
+[32mopera_1         |[0m 18:45:05.325 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[33mchrome_1        |[0m 18:45:05.326 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub1   |[0m 18:45:05.325 INFO [DefaultGridRegistry.add] - Registered a node http://172.19.0.3:5555
+[36mselenium-hub1   |[0m 18:45:05.325 INFO [DefaultGridRegistry.add] - Registered a node http://172.19.0.4:5555
+[35mfirefox_1       |[0m 18:45:05.448 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub1:4444/grid/register
+[35mfirefox_1       |[0m 18:45:05.472 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub1   |[0m 18:45:05.471 INFO [DefaultGridRegistry.add] - Registered a node http://172.19.0.5:5555
+[36mselenium-hub1   |[0m 18:49:41.780 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, version: }
+[36mselenium-hub1   |[0m 18:49:41.784 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=ab30b638-fcd1-46be-b658-234d90b7dd94, seleniumProtocol=WebDriver, browserName=firefox, maxInstances=1, moz:firefoxOptions={log={level=info}}, platformName=LINUX, version=74.0, applicationName=, platform=LINUX}
+[35mfirefox_1       |[0m 18:49:41.853 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[35mfirefox_1       |[0m   "acceptInsecureCerts": true,
+[35mfirefox_1       |[0m   "browserName": "firefox",
+[35mfirefox_1       |[0m   "version": ""
+[35mfirefox_1       |[0m }
+[35mfirefox_1       |[0m 18:49:41.855 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+[35mfirefox_1       |[0m 1587926981902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemxKbkX"
+[35mfirefox_1       |[0m 1587926982573	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+[35mfirefox_1       |[0m 1587926983118	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+[35mfirefox_1       |[0m 1587926983118	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+[35mfirefox_1       |[0m 1587926983118	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+[35mfirefox_1       |[0m 1587926983119	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[35mfirefox_1       |[0m 1587926985331	Marionette	INFO	Listening on port 44093
+[35mfirefox_1       |[0m 1587926985421	Marionette	WARN	TLS certificate errors will be ignored for this session
+[35mfirefox_1       |[0m 18:49:45.475 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+[35mfirefox_1       |[0m 18:49:45.499 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 92f4f1f0-37bc-4772-96ca-e4a4fb0d0c90 (org.openqa.selenium.firefox.GeckoDriverService)
+[36mselenium-hub1   |[0m 18:50:14.837 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mselenium-hub1   |[0m 18:50:14.838 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=1a0df223-b9a5-48ca-b20b-85098ffff92f, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=1, platformName=LINUX, version=80.0.3987.149, applicationName=, platform=LINUX}
+[33mchrome_1        |[0m 18:50:14.905 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[33mchrome_1        |[0m   "browserName": "chrome",
+[33mchrome_1        |[0m   "goog:chromeOptions": {
+[33mchrome_1        |[0m   },
+[33mchrome_1        |[0m   "version": ""
+[33mchrome_1        |[0m }
+[33mchrome_1        |[0m 18:50:14.907 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+[33mchrome_1        |[0m Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 26232
+[33mchrome_1        |[0m Only local connections are allowed.
+[33mchrome_1        |[0m Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[33mchrome_1        |[0m [1587927014.968][SEVERE]: bind() failed: Cannot assign requested address (99)
+[33mchrome_1        |[0m 18:50:16.009 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+[33mchrome_1        |[0m 18:50:16.033 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session f7e2fba5df8f2213300b919a088ebdbd (org.openqa.selenium.chrome.ChromeDriverService)
+[33mchrome_1        |[0m [1587927017.164][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927017.301][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927017.501][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927017.602][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927017.702][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927017.803][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927017.904][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.005][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.106][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.207][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.308][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.408][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.510][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.610][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.711][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.812][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927018.913][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927019.014][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927019.115][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927019.327][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927019.428][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927019.528][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927019.629][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927019.730][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927019.831][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927020.070][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927020.172][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927020.272][SEVERE]: Timed out receiving message from renderer: 0.100
+[33mchrome_1        |[0m [1587927020.374][SEVERE]: Timed out receiving message from renderer: 0.100
+[36mselenium-hub1   |[0m 18:54:54.823 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mselenium-hub1   |[0m 18:56:10.963 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mselenium-hub1   |[0m 18:57:49.074 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, version: }
+[36mselenium-hub1   |[0m 19:01:18.755 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, version: }
+[33mchrome_1        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[35mfirefox_1       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[35mfirefox_1       |[0m 2020-04-26 19:03:58,084 WARN received SIGTERM indicating exit request
+[35mfirefox_1       |[0m 2020-04-26 19:03:58,098 INFO waiting for xvfb, selenium-node to die
+[35mfirefox_1       |[0m 2020-04-26 19:03:58,098 INFO stopped: selenium-node (terminated by SIGTERM)
+[35mfirefox_1       |[0m 2020-04-26 19:03:58,099 INFO stopped: xvfb (terminated by SIGTERM)
+[33mchrome_1        |[0m 2020-04-26 19:03:58,083 WARN received SIGTERM indicating exit request
+[33mchrome_1        |[0m 2020-04-26 19:03:58,102 INFO waiting for xvfb, selenium-node to die
+[33mchrome_1        |[0m 2020-04-26 19:03:58,102 INFO stopped: selenium-node (terminated by SIGTERM)
+[33mchrome_1        |[0m 2020-04-26 19:03:58,103 INFO stopped: xvfb (terminated by SIGTERM)
+[35mfirefox_1       |[0m Shutdown complete
+[33mchrome_1        |[0m Shutdown complete
+[32mopera_1         |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[32mopera_1         |[0m 2020-04-26 19:03:58,133 WARN received SIGTERM indicating exit request
+[32mopera_1         |[0m 2020-04-26 19:03:58,133 INFO waiting for xvfb, selenium-node to die
+[35mcomdocker_firefox_1 exited with code 143
+[0m[33mcomdocker_chrome_1 exited with code 143
+[0m[32mopera_1         |[0m 2020-04-26 19:03:59,135 INFO stopped: selenium-node (terminated by SIGTERM)
+[32mopera_1         |[0m 2020-04-26 19:03:59,136 INFO stopped: xvfb (terminated by SIGTERM)
+[32mopera_1         |[0m Shutdown complete
+[32mcomdocker_opera_1 exited with code 143
+[0m[36mselenium-hub1   |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mselenium-hub1   |[0m 2020-04-26 19:03:59,566 WARN received SIGTERM indicating exit request
+[36mselenium-hub1   |[0m 2020-04-26 19:03:59,567 INFO waiting for selenium-hub to die
+[36mselenium-hub1   |[0m 2020-04-26 19:03:59,567 INFO stopped: selenium-hub (terminated by SIGTERM)
+[36mselenium-hub1   |[0m Shutdown complete
+[36mselenium-hub1 exited with code 143
+[0mAttaching to selenium-hub1, comdocker_opera_1, comdocker_firefox_1, comdocker_chrome_1
+[36mselenium-hub1   |[0m 2020-04-26 19:05:00,510 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub1   |[0m 2020-04-26 19:05:00,512 INFO supervisord started with pid 12
+[36mselenium-hub1   |[0m 2020-04-26 19:05:01,514 INFO spawned: 'selenium-hub' with pid 15
+[36mselenium-hub1   |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub1   |[0m 2020-04-26 19:05:01,529 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub1   |[0m {
+[36mselenium-hub1   |[0m   "host": "0.0.0.0",
+[36mselenium-hub1   |[0m   "port": 4444,
+[36mselenium-hub1   |[0m   "role": "hub",
+[36mselenium-hub1   |[0m   "maxSession": 5,
+[36mselenium-hub1   |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub1   |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub1   |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub1   |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub1   |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub1   |[0m   "browserTimeout": 0,
+[36mselenium-hub1   |[0m   "timeout": 1800,
+[36mselenium-hub1   |[0m   "debug": false
+[36mselenium-hub1   |[0m }
+[36mselenium-hub1   |[0m 19:05:01.948 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mopera_1         |[0m 2020-04-26 19:05:01,978 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mopera_1         |[0m 2020-04-26 19:05:01,980 INFO supervisord started with pid 8
+[36mselenium-hub1   |[0m 19:05:02.080 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[32mfirefox_1       |[0m 2020-04-26 19:05:02,103 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2020-04-26 19:05:02,105 INFO supervisord started with pid 8
+[35mchrome_1        |[0m 2020-04-26 19:05:02,128 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[35mchrome_1        |[0m 2020-04-26 19:05:02,129 INFO supervisord started with pid 7
+[36mselenium-hub1   |[0m 2020-04-26 19:05:02.443:INFO::main: Logging initialized @902ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mselenium-hub1   |[0m 19:05:02.621 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub1   |[0m 19:05:02.621 INFO [Hub.start] - Nodes should register to http://172.19.0.2:4444/grid/register/
+[36mselenium-hub1   |[0m 19:05:02.622 INFO [Hub.start] - Clients should connect to http://172.19.0.2:4444/wd/hub
+[33mopera_1         |[0m 2020-04-26 19:05:02,983 INFO spawned: 'xvfb' with pid 11
+[33mopera_1         |[0m 2020-04-26 19:05:02,984 INFO spawned: 'selenium-node' with pid 12
+[32mfirefox_1       |[0m 2020-04-26 19:05:03,108 INFO spawned: 'xvfb' with pid 11
+[32mfirefox_1       |[0m 2020-04-26 19:05:03,109 INFO spawned: 'selenium-node' with pid 12
+[35mchrome_1        |[0m 2020-04-26 19:05:03,132 INFO spawned: 'xvfb' with pid 10
+[35mchrome_1        |[0m 2020-04-26 19:05:03,133 INFO spawned: 'selenium-node' with pid 11
+[33mopera_1         |[0m Connecting to the Hub using the host selenium-hub1 and port 4444
+[33mopera_1         |[0m 2020-04-26 19:05:03,379 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mopera_1         |[0m 2020-04-26 19:05:03,379 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub1 and port 4444
+[32mfirefox_1       |[0m 2020-04-26 19:05:03,502 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2020-04-26 19:05:03,502 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[35mchrome_1        |[0m Connecting to the Hub using the host selenium-hub1 and port 4444
+[35mchrome_1        |[0m 2020-04-26 19:05:03,542 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[35mchrome_1        |[0m 2020-04-26 19:05:03,542 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mopera_1         |[0m 19:05:03.637 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mopera_1         |[0m 19:05:03.786 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mfirefox_1       |[0m 19:05:03.848 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[35mchrome_1        |[0m 19:05:03.925 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mopera_1         |[0m 2020-04-26 19:05:03.928:INFO::main: Logging initialized @543ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 19:05:04.038 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[35mchrome_1        |[0m 19:05:04.113 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mfirefox_1       |[0m 2020-04-26 19:05:04.198:INFO::main: Logging initialized @689ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[35mchrome_1        |[0m 2020-04-26 19:05:04.257:INFO::main: Logging initialized @708ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mopera_1         |[0m 19:05:04.286 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mopera_1         |[0m 19:05:04.462 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mopera_1         |[0m 19:05:04.463 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 19:05:04.534 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mopera_1         |[0m 19:05:04.539 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[35mchrome_1        |[0m 19:05:04.625 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mfirefox_1       |[0m 19:05:04.667 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mfirefox_1       |[0m 19:05:04.680 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 19:05:04.741 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[35mchrome_1        |[0m 19:05:04.785 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[35mchrome_1        |[0m 19:05:04.785 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[35mchrome_1        |[0m 19:05:04.848 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mopera_1         |[0m 19:05:05.147 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub1:4444/grid/register
+[33mopera_1         |[0m 19:05:05.246 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub1   |[0m 19:05:05.245 INFO [DefaultGridRegistry.add] - Registered a node http://172.19.0.3:5555
+[32mfirefox_1       |[0m 19:05:05.270 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub1:4444/grid/register
+[35mchrome_1        |[0m 19:05:05.286 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub1:4444/grid/register
+[36mselenium-hub1   |[0m 19:05:05.302 INFO [DefaultGridRegistry.add] - Registered a node http://172.19.0.5:5555
+[32mfirefox_1       |[0m 19:05:05.303 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub1   |[0m 19:05:05.312 INFO [DefaultGridRegistry.add] - Registered a node http://172.19.0.4:5555
+[35mchrome_1        |[0m 19:05:05.313 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub1   |[0m 19:06:22.351 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mselenium-hub1   |[0m 19:06:22.356 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=f9b986a2-dc36-49fa-99de-82f083656b22, seleniumProtocol=WebDriver, browserName=chrome, maxInstances=1, platformName=LINUX, version=80.0.3987.149, applicationName=, platform=LINUX}
+[35mchrome_1        |[0m 19:06:22.429 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[35mchrome_1        |[0m   "browserName": "chrome",
+[35mchrome_1        |[0m   "goog:chromeOptions": {
+[35mchrome_1        |[0m   },
+[35mchrome_1        |[0m   "version": ""
+[35mchrome_1        |[0m }
+[35mchrome_1        |[0m 19:06:22.431 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+[35mchrome_1        |[0m Starting ChromeDriver 80.0.3987.106 (f68069574609230cf9b635cd784cfb1bf81bb53a-refs/branch-heads/3987@{#882}) on port 7385
+[35mchrome_1        |[0m Only local connections are allowed.
+[35mchrome_1        |[0m Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[35mchrome_1        |[0m [1587927982.458][SEVERE]: bind() failed: Cannot assign requested address (99)
+[35mchrome_1        |[0m 19:06:22.973 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+[35mchrome_1        |[0m 19:06:22.996 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session b1fc3db3d843d3539b1db487830769f5 (org.openqa.selenium.chrome.ChromeDriverService)
+[35mchrome_1        |[0m [1587927983.856][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927983.957][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.079][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.247][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.348][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.479][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.579][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.680][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.882][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927984.983][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927985.084][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927985.224][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927985.423][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927985.524][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927985.625][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927985.726][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927985.826][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927985.927][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.028][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.129][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.230][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.331][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.432][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.533][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.634][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.735][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.836][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927986.937][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.038][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.139][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.341][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.442][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.543][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.644][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.744][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.845][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927987.946][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.047][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.148][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.249][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.350][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.451][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.552][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.653][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.754][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.855][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927988.957][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.058][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.158][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.259][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.360][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.461][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.562][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.663][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.764][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.865][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927989.966][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.067][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.168][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.269][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.370][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.472][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.584][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.728][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.829][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927990.930][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.031][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.201][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.302][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.402][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.503][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.604][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.705][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.806][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927991.907][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.008][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.108][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.210][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.311][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.412][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.613][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.714][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.815][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927992.916][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.017][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.118][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.219][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.320][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.421][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.522][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.623][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.724][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.824][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927993.925][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.026][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.127][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.228][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.329][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.430][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.530][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.631][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.732][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.860][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927994.961][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927995.062][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927995.213][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927995.314][SEVERE]: Timed out receiving message from renderer: 0.100
+[35mchrome_1        |[0m [1587927995.415][SEVERE]: Timed out receiving message from renderer: 0.100
+[36mselenium-hub1   |[0m 19:06:56.272 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {browserName: chrome, version: }
+[36mselenium-hub1   |[0m 19:10:23.291 INFO [RequestHandler.process] - Got a request to create a new session: Capabilities {acceptInsecureCerts: true, browserName: firefox, version: }
+[36mselenium-hub1   |[0m 19:10:23.292 INFO [TestSlot.getNewSession] - Trying to create a new session on test slot {server:CONFIG_UUID=4d681398-0a80-4548-9d47-d621a40a8144, seleniumProtocol=WebDriver, browserName=firefox, maxInstances=1, moz:firefoxOptions={log={level=info}}, platformName=LINUX, version=74.0, applicationName=, platform=LINUX}
+[32mfirefox_1       |[0m 19:10:23.365 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+[32mfirefox_1       |[0m   "acceptInsecureCerts": true,
+[32mfirefox_1       |[0m   "browserName": "firefox",
+[32mfirefox_1       |[0m   "version": ""
+[32mfirefox_1       |[0m }
+[32mfirefox_1       |[0m 19:10:23.367 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+[32mfirefox_1       |[0m 1587928223405	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilez95X2h"
+[32mfirefox_1       |[0m 1587928223912	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+[32mfirefox_1       |[0m 1587928224471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+[32mfirefox_1       |[0m 1587928224471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+[32mfirefox_1       |[0m 1587928224471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+[32mfirefox_1       |[0m 1587928224471	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[32mfirefox_1       |[0m 1587928226428	Marionette	INFO	Listening on port 45677
+[32mfirefox_1       |[0m 1587928226515	Marionette	WARN	TLS certificate errors will be ignored for this session
+[32mfirefox_1       |[0m 19:10:26.565 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+[32mfirefox_1       |[0m 19:10:26.587 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session d73bf6f4-3f8d-4c05-aa31-1ed75c6f369e (org.openqa.selenium.firefox.GeckoDriverService)

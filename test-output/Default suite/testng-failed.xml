@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="docker.com.docker.StartDocker">
+      <class name="docker.com.docker.StartLinuxDocker">
         <methods>
-          <include name="startDocker"/>
+          <include name="startDockerForLinux"/>
         </methods>
-      </class> <!-- docker.com.docker.StartDocker -->
+      </class> <!-- docker.com.docker.StartLinuxDocker -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

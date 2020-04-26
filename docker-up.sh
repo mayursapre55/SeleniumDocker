@@ -1,1 +1,1 @@
-sudo docker-compose -f selenium-docker-compose.yaml up
+sudo docker-compose -f selenium-docker-compose.yaml up >> output.txt

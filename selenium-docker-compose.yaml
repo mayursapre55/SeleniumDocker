@@ -2,7 +2,7 @@ version: "3"
 services:
   selenium-hub:
     image: selenium/hub:3.141.59-20200326
-    container_name: selenium-hub
+    container_name: selenium-hub1
     ports:
       - "4444:4444"
 
@@ -13,7 +13,7 @@ services:
     depends_on:
       - selenium-hub
     environment:
-      - HUB_HOST=selenium-hub
+      - HUB_HOST=selenium-hub1
       - HUB_PORT=4444
 
   firefox:
@@ -23,7 +23,7 @@ services:
     depends_on:
       - selenium-hub
     environment:
-      - HUB_HOST=selenium-hub
+      - HUB_HOST=selenium-hub1
       - HUB_PORT=4444
 
   opera:
@@ -33,5 +33,5 @@ services:
     depends_on:
       - selenium-hub
     environment:
-      - HUB_HOST=selenium-hub
+      - HUB_HOST=selenium-hub1
       - HUB_PORT=4444
